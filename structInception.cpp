@@ -60,6 +60,7 @@ void printDetails(Student student[])
         cout << "Student Grade: " << student[i].grade << endl;
         cout << "Student Address: " << student[i].address.numberAddress << " " <<
             student[i].address.streetName << " " << student[i].address.cityName << endl;
+        cout << endl;
     }
     cout << endl;
 }
